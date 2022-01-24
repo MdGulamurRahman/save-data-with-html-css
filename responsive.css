@@ -205,6 +205,52 @@
     .data_house_area{
         flex-wrap: wrap;
     }
+    .data_house div {
+        max-width: 200px;
+    }
+    .data_house div h3 {
+        font-size: 17px;
+        line-height: 150%;
+    }
+    .data_house div img {
+        margin-right: 13px;
+    }
+    .inner_footer {
+        margin-top: 50px;
+    }
+    address {
+        margin-top: 23px;
+    }
+    address h6 {
+        font-size: 13px;
+        line-height: 177%;
+        color: #212353;
+    }
+    address p {
+        font-size: 14px;
+    }
+    .about h3 {
+        padding-top: 30px;
+    }
+    .help h3 {
+        padding-top: 62px;
+    }
+    .about ul li a {
+        line-height: 195%;
+    }
+    .help ul li a {
+        line-height: 195%;
+    }
+    .copyright_text {
+        max-width: 274px;
+    }
+    .copyright_text p {
+        font-size: 11px;
+        line-height: 155%;
+    }
+    .copyright_area {
+        margin-top: 10px;
+    }
 }
 
 
