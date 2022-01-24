@@ -170,13 +170,12 @@
         color: #212353;
         
     }
-    .box p{
+    .box p {
         font-size: 10px;
-        line-height: 80%;
+        line-height: 135%;
         color: #4B5D68;
         max-width: 160px;
         padding-top: 10px;
-        
     }
     .box{
         padding-top: 20px;
@@ -191,10 +190,10 @@
       flex-wrap: wrap;
       padding-top: 50px;
     }
-    .free_area{
-       text-align: center;
-       margin-left: 30px;
-       padding-bottom: 30px;
+    .free_area {
+        text-align: center;
+        margin-left: 43px;
+        padding-bottom: 30px;
     }
     .free_btn_area{
         flex-wrap: wrap;
