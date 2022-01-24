@@ -1,0 +1,210 @@
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .left_header ul,.right_header{
+        display: none;
+    }
+    #toggle_menu{
+        display: block;
+    }
+    #banner {
+        background-position: 96% bottom;
+        background-size: 59%;
+        padding-top: 102px;
+    }
+    .banner_title h1 {
+        height: 155px;
+        font-size: 70px;
+    }
+    .banner_title p {
+        max-height: 114px;
+        font-size: 12px;
+        line-height: 157%;
+    }
+    .inner_storage img{
+        width: 50%;
+      }
+    .storage_text h2 {
+        font-size: 26px;
+        line-height: 116%;
+    }
+    .storage_text p {
+        font-size: 14px;
+        line-height: 150%;
+        padding-top: 30px;
+    }
+    .storage_text {
+        margin-left: 31px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #banner {
+        background-position: 92% bottom;
+        background-size: 62%;
+        padding-top: 92px;
+    }
+    .banner_title h1 {
+        width: 492px;
+        height: 110px;
+        font-size: 48px;
+    }
+    .banner_title p {
+        width: 246px;
+        height: 75px;
+        font-size: 11px;
+        line-height: 154%;
+        margin: 20px 0;
+    }
+    .inner_storage img{
+        width: 50%;
+      }
+      .storage_text h2 {
+        font-size: 24px;
+        line-height: 116%;
+    }
+    .storage_text p {
+        font-size: 12px;
+        line-height: 150%;
+        padding-top: 30px;
+    }
+    .storage_text {
+        margin-left: 31px;
+    }
+    .box_area img {
+        width: 40%;
+        padding-top: 47px;
+    }
+    .box h3{
+        font-size: 14px;
+        line-height: 110%;
+        align-items: center;
+        color: #212353;
+        
+    }
+    .box p{
+        font-size: 10px;
+        line-height: 110%;
+        color: #4B5D68;
+        max-width: 160px;
+        padding-top: 10px;
+        
+    }
+    .free_btn_area{
+        flex-wrap: wrap;
+    }
+    .demo_btn{
+        margin-top: 15px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 570px and up) */
+@media only screen and (max-width: 570px) {
+    #banner {
+       background-image: none;
+       padding-top: 91px;
+    }
+    .banner_title h1 {
+        width: 80%;
+        height: 88px;
+        font-size: 30px;
+        line-height: 133%;
+        text-align: center;
+        margin: auto;
+    }
+    .banner_title p {
+        width: 100%;
+        height: 76px;
+        font-size: 12px;
+        line-height: 142%;
+        margin:auto;
+        text-align: center;
+    }
+    .banner_btn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner_feature{
+        margin-top: 100px;
+    }
+    .inner_storage{
+       flex-wrap: wrap;
+       height: 100vh;
+    }
+    .inner_storage img{
+      width: 80%;
+    }
+    .storage_text{
+        margin-left: 0;
+        padding-bottom: 50px;
+    }
+    .storage_text h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 109%;
+        text-align: center;
+    }
+    .storage_text p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 156%;
+        color: #4B5D68;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .box_area{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-top: 50px;
+    }
+    .box_area .box_one, .box_two, .box_three, .box_four{
+        margin: 20px 0;
+    }
+    .box h3{
+        font-size: 17px;
+        line-height: 110%;
+        align-items: center;
+        color: #212353;
+        
+    }
+    .box p{
+        font-size: 10px;
+        line-height: 80%;
+        color: #4B5D68;
+        max-width: 160px;
+        padding-top: 10px;
+        
+    }
+    .box{
+        padding-top: 20px;
+    }
+    .box a{
+        padding-top: 5px;
+    }
+    #free{
+        margin-top: 100px;
+    }
+    .inner_free{
+      flex-wrap: wrap;
+      padding-top: 50px;
+    }
+    .free_area{
+       text-align: center;
+       margin-left: 30px;
+       padding-bottom: 30px;
+    }
+    .free_btn_area{
+        flex-wrap: wrap;
+    }
+    .demo_btn{
+        margin-top: 15px;
+    }
+    .data_house_area{
+        flex-wrap: wrap;
+    }
+}
+
+
